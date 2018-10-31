@@ -8,12 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		79543B5F2189B90300F0C53D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79543B5E2189B90300F0C53D /* AppDelegate.swift */; };
-		79543B612189B90300F0C53D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79543B602189B90300F0C53D /* ViewController.swift */; };
-		79543B642189B90300F0C53D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79543B622189B90300F0C53D /* Main.storyboard */; };
 		79543B662189B90400F0C53D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79543B652189B90400F0C53D /* Assets.xcassets */; };
-		79543B692189B90400F0C53D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79543B672189B90400F0C53D /* LaunchScreen.storyboard */; };
 		79543B742189B90400F0C53D /* TabBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79543B732189B90400F0C53D /* TabBarTests.swift */; };
 		79543B7F2189B90500F0C53D /* TabBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79543B7E2189B90500F0C53D /* TabBarUITests.swift */; };
+		79543B8F2189BD3300F0C53D /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79543B8D2189BD3300F0C53D /* ChatViewController.swift */; };
+		79543B902189BD3300F0C53D /* ChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79543B8E2189BD3300F0C53D /* ChatViewController.xib */; };
+		79543B942189BD6B00F0C53D /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79543B922189BD6B00F0C53D /* ContactViewController.swift */; };
+		79543B952189BD6B00F0C53D /* ContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79543B932189BD6B00F0C53D /* ContactViewController.xib */; };
+		79543B992189BD9800F0C53D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79543B972189BD9800F0C53D /* SettingsViewController.swift */; };
+		79543B9A2189BD9800F0C53D /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79543B982189BD9800F0C53D /* SettingsViewController.xib */; };
+		79543B9F2189BDE600F0C53D /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79543B9D2189BDE600F0C53D /* FavoritesViewController.swift */; };
+		79543BA02189BDE600F0C53D /* FavoritesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79543B9E2189BDE600F0C53D /* FavoritesViewController.xib */; };
+		79543BA32189C85100F0C53D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79543BA52189C85100F0C53D /* Localizable.strings */; };
+		79543BAC2189D20200F0C53D /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79543BAB2189D20200F0C53D /* Style.swift */; };
+		79543BAE2189D22500F0C53D /* ColorStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79543BAD2189D22500F0C53D /* ColorStyle.swift */; };
+		79543BB42189DD9500F0C53D /* Scare Arms.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 79543BB32189DC0B00F0C53D /* Scare Arms.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +45,7 @@
 /* Begin PBXFileReference section */
 		79543B5B2189B90300F0C53D /* TabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79543B5E2189B90300F0C53D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		79543B602189B90300F0C53D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		79543B632189B90300F0C53D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		79543B652189B90400F0C53D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		79543B682189B90400F0C53D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79543B6A2189B90400F0C53D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79543B6F2189B90400F0C53D /* TabBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79543B732189B90400F0C53D /* TabBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarTests.swift; sourceTree = "<group>"; };
@@ -47,6 +53,23 @@
 		79543B7A2189B90500F0C53D /* TabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79543B7E2189B90500F0C53D /* TabBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarUITests.swift; sourceTree = "<group>"; };
 		79543B802189B90500F0C53D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79543B8D2189BD3300F0C53D /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		79543B8E2189BD3300F0C53D /* ChatViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatViewController.xib; sourceTree = "<group>"; };
+		79543B922189BD6B00F0C53D /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		79543B932189BD6B00F0C53D /* ContactViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactViewController.xib; sourceTree = "<group>"; };
+		79543B972189BD9800F0C53D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		79543B982189BD9800F0C53D /* SettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		79543B9D2189BDE600F0C53D /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		79543B9E2189BDE600F0C53D /* FavoritesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoritesViewController.xib; sourceTree = "<group>"; };
+		79543BA42189C85100F0C53D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		79543BA62189C8AA00F0C53D /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		79543BA72189C8FE00F0C53D /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		79543BA82189C90500F0C53D /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		79543BA92189C90E00F0C53D /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		79543BAB2189D20200F0C53D /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		79543BAD2189D22500F0C53D /* ColorStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorStyle.swift; sourceTree = "<group>"; };
+		79543BB02189D89900F0C53D /* Platonica.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Platonica.otf; path = ../../../Downloads/platonica/Platonica.otf; sourceTree = "<group>"; };
+		79543BB32189DC0B00F0C53D /* Scare Arms.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Scare Arms.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +120,16 @@
 		79543B5D2189B90300F0C53D /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				79543BAF2189D82200F0C53D /* Fonts */,
+				79543BAA2189D1EE00F0C53D /* Stile */,
+				79543B9C2189BDC600F0C53D /* FavoritesViewController */,
+				79543B962189BD8000F0C53D /* SettingsViewController */,
+				79543B912189BD4500F0C53D /* ContactViewController */,
+				79543B8C2189BD0D00F0C53D /* ChatViewController */,
 				79543B5E2189B90300F0C53D /* AppDelegate.swift */,
-				79543B602189B90300F0C53D /* ViewController.swift */,
-				79543B622189B90300F0C53D /* Main.storyboard */,
 				79543B652189B90400F0C53D /* Assets.xcassets */,
-				79543B672189B90400F0C53D /* LaunchScreen.storyboard */,
 				79543B6A2189B90400F0C53D /* Info.plist */,
+				79543BA52189C85100F0C53D /* Localizable.strings */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -123,6 +150,60 @@
 				79543B802189B90500F0C53D /* Info.plist */,
 			);
 			path = TabBarUITests;
+			sourceTree = "<group>";
+		};
+		79543B8C2189BD0D00F0C53D /* ChatViewController */ = {
+			isa = PBXGroup;
+			children = (
+				79543B8D2189BD3300F0C53D /* ChatViewController.swift */,
+				79543B8E2189BD3300F0C53D /* ChatViewController.xib */,
+			);
+			path = ChatViewController;
+			sourceTree = "<group>";
+		};
+		79543B912189BD4500F0C53D /* ContactViewController */ = {
+			isa = PBXGroup;
+			children = (
+				79543B922189BD6B00F0C53D /* ContactViewController.swift */,
+				79543B932189BD6B00F0C53D /* ContactViewController.xib */,
+			);
+			path = ContactViewController;
+			sourceTree = "<group>";
+		};
+		79543B962189BD8000F0C53D /* SettingsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				79543B972189BD9800F0C53D /* SettingsViewController.swift */,
+				79543B982189BD9800F0C53D /* SettingsViewController.xib */,
+			);
+			path = SettingsViewController;
+			sourceTree = "<group>";
+		};
+		79543B9C2189BDC600F0C53D /* FavoritesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				79543B9D2189BDE600F0C53D /* FavoritesViewController.swift */,
+				79543B9E2189BDE600F0C53D /* FavoritesViewController.xib */,
+			);
+			path = FavoritesViewController;
+			sourceTree = "<group>";
+		};
+		79543BAA2189D1EE00F0C53D /* Stile */ = {
+			isa = PBXGroup;
+			children = (
+				79543BAB2189D20200F0C53D /* Style.swift */,
+				79543BAD2189D22500F0C53D /* ColorStyle.swift */,
+			);
+			path = Stile;
+			sourceTree = "<group>";
+		};
+		79543BAF2189D82200F0C53D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				79543BB32189DC0B00F0C53D /* Scare Arms.ttf */,
+				79543BB02189D89900F0C53D /* Platonica.otf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,6 +292,9 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
+				it,
+				hi,
 			);
 			mainGroup = 79543B522189B90300F0C53D;
 			productRefGroup = 79543B5C2189B90300F0C53D /* Products */;
@@ -229,9 +313,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79543B692189B90400F0C53D /* LaunchScreen.storyboard in Resources */,
+				79543B952189BD6B00F0C53D /* ContactViewController.xib in Resources */,
 				79543B662189B90400F0C53D /* Assets.xcassets in Resources */,
-				79543B642189B90300F0C53D /* Main.storyboard in Resources */,
+				79543BA32189C85100F0C53D /* Localizable.strings in Resources */,
+				79543BB42189DD9500F0C53D /* Scare Arms.ttf in Resources */,
+				79543B902189BD3300F0C53D /* ChatViewController.xib in Resources */,
+				79543BA02189BDE600F0C53D /* FavoritesViewController.xib in Resources */,
+				79543B9A2189BD9800F0C53D /* SettingsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +344,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79543B612189B90300F0C53D /* ViewController.swift in Sources */,
+				79543B8F2189BD3300F0C53D /* ChatViewController.swift in Sources */,
+				79543BAC2189D20200F0C53D /* Style.swift in Sources */,
 				79543B5F2189B90300F0C53D /* AppDelegate.swift in Sources */,
+				79543B942189BD6B00F0C53D /* ContactViewController.swift in Sources */,
+				79543BAE2189D22500F0C53D /* ColorStyle.swift in Sources */,
+				79543B9F2189BDE600F0C53D /* FavoritesViewController.swift in Sources */,
+				79543B992189BD9800F0C53D /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,20 +386,16 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		79543B622189B90300F0C53D /* Main.storyboard */ = {
+		79543BA52189C85100F0C53D /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				79543B632189B90300F0C53D /* Base */,
+				79543BA42189C85100F0C53D /* en */,
+				79543BA62189C8AA00F0C53D /* Base */,
+				79543BA72189C8FE00F0C53D /* es */,
+				79543BA82189C90500F0C53D /* it */,
+				79543BA92189C90E00F0C53D /* hi */,
 			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		79543B672189B90400F0C53D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				79543B682189B90400F0C53D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -316,6 +405,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -376,6 +466,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

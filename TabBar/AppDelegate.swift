@@ -16,6 +16,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        window = UIWindow(frame: UIScreen.main.bounds)
+        if let window = window{
+            window.tintColor = ColorStyle.tintColor()
+            Style.customize()
+            let chatsVC = ChatViewController()
+            let favoritesVC = FavoritesViewController()
+            let contactsVC = ContactViewController()
+            let settingsVC = SettingsViewController()
+            
+            let chatNavController = UINavigationController(rootViewController: chatsVC)
+            let favNavController = UINavigationController(rootViewController: favoritesVC)
+            let contactNavController = UINavigationController(rootViewController: contactsVC)
+            let settingsNavController = UINavigationController(rootViewController: settingsVC)
+            
+            let tabController = UITabBarController()
+            tabController.tabBar.isTranslucent = false
+            tabController.viewControllers = [chatNavController, favNavController, contactNavController,settingsNavController]
+            window.rootViewController = tabController
+            window.makeKeyAndVisible()
+        }
         return true
     }
 
