@@ -15,7 +15,6 @@ class ChatViewController: UIViewController {
         self.tabBarItem.image = UIImage(named: "chat")
         self.title = NSLocalizedString("title_chats", comment: "")
     }
-    
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
