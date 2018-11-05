@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32AF24D12190D22600BFE952 /* AlarmTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AF24CF2190D22600BFE952 /* AlarmTableViewCell.swift */; };
+		32AF24D22190D22600BFE952 /* AlarmTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32AF24D02190D22600BFE952 /* AlarmTableViewCell.xib */; };
+		32AF24D62190D26F00BFE952 /* WorldClockTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AF24D42190D26F00BFE952 /* WorldClockTableViewCell.swift */; };
+		32AF24D72190D26F00BFE952 /* WorldClockTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32AF24D52190D26F00BFE952 /* WorldClockTableViewCell.xib */; };
+		32AF24DA2190D6EC00BFE952 /* AlarmHour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AF24D92190D6EC00BFE952 /* AlarmHour.swift */; };
 		79543B5F2189B90300F0C53D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79543B5E2189B90300F0C53D /* AppDelegate.swift */; };
 		79543B662189B90400F0C53D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79543B652189B90400F0C53D /* Assets.xcassets */; };
 		79543B742189B90400F0C53D /* TabBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79543B732189B90400F0C53D /* TabBarTests.swift */; };
@@ -43,6 +48,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		32AF24CF2190D22600BFE952 /* AlarmTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmTableViewCell.swift; sourceTree = "<group>"; };
+		32AF24D02190D22600BFE952 /* AlarmTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlarmTableViewCell.xib; sourceTree = "<group>"; };
+		32AF24D42190D26F00BFE952 /* WorldClockTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockTableViewCell.swift; sourceTree = "<group>"; };
+		32AF24D52190D26F00BFE952 /* WorldClockTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WorldClockTableViewCell.xib; sourceTree = "<group>"; };
+		32AF24D92190D6EC00BFE952 /* AlarmHour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmHour.swift; sourceTree = "<group>"; };
 		79543B5B2189B90300F0C53D /* TabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79543B5E2189B90300F0C53D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79543B652189B90400F0C53D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -68,7 +78,6 @@
 		79543BA92189C90E00F0C53D /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Localizable.strings; sourceTree = "<group>"; };
 		79543BAB2189D20200F0C53D /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
 		79543BAD2189D22500F0C53D /* ColorStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorStyle.swift; sourceTree = "<group>"; };
-		79543BB02189D89900F0C53D /* Platonica.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Platonica.otf; path = ../../../Downloads/platonica/Platonica.otf; sourceTree = "<group>"; };
 		79543BB32189DC0B00F0C53D /* Scare Arms.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Scare Arms.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,6 +106,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32AF24CD2190D1D000BFE952 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				32AF24D32190D24C00BFE952 /* WorldClock */,
+				32AF24CE2190D1EE00BFE952 /* AlarmCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		32AF24CE2190D1EE00BFE952 /* AlarmCell */ = {
+			isa = PBXGroup;
+			children = (
+				32AF24CF2190D22600BFE952 /* AlarmTableViewCell.swift */,
+				32AF24D02190D22600BFE952 /* AlarmTableViewCell.xib */,
+			);
+			path = AlarmCell;
+			sourceTree = "<group>";
+		};
+		32AF24D32190D24C00BFE952 /* WorldClock */ = {
+			isa = PBXGroup;
+			children = (
+				32AF24D42190D26F00BFE952 /* WorldClockTableViewCell.swift */,
+				32AF24D52190D26F00BFE952 /* WorldClockTableViewCell.xib */,
+			);
+			path = WorldClock;
+			sourceTree = "<group>";
+		};
+		32AF24D82190D6BF00BFE952 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				32AF24D92190D6EC00BFE952 /* AlarmHour.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		79543B522189B90300F0C53D = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +164,8 @@
 		79543B5D2189B90300F0C53D /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				32AF24D82190D6BF00BFE952 /* Models */,
+				32AF24CD2190D1D000BFE952 /* Cells */,
 				79543BAF2189D82200F0C53D /* Fonts */,
 				79543BAA2189D1EE00F0C53D /* Stile */,
 				79543B9C2189BDC600F0C53D /* FavoritesViewController */,
@@ -201,7 +247,6 @@
 			isa = PBXGroup;
 			children = (
 				79543BB32189DC0B00F0C53D /* Scare Arms.ttf */,
-				79543BB02189D89900F0C53D /* Platonica.otf */,
 			);
 			name = Fonts;
 			sourceTree = "<group>";
@@ -314,12 +359,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				79543B952189BD6B00F0C53D /* ContactViewController.xib in Resources */,
+				32AF24D72190D26F00BFE952 /* WorldClockTableViewCell.xib in Resources */,
 				79543B662189B90400F0C53D /* Assets.xcassets in Resources */,
 				79543BA32189C85100F0C53D /* Localizable.strings in Resources */,
 				79543BB42189DD9500F0C53D /* Scare Arms.ttf in Resources */,
 				79543B902189BD3300F0C53D /* ChatViewController.xib in Resources */,
 				79543BA02189BDE600F0C53D /* FavoritesViewController.xib in Resources */,
 				79543B9A2189BD9800F0C53D /* SettingsViewController.xib in Resources */,
+				32AF24D22190D22600BFE952 /* AlarmTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,8 +394,11 @@
 				79543B8F2189BD3300F0C53D /* ChatViewController.swift in Sources */,
 				79543BAC2189D20200F0C53D /* Style.swift in Sources */,
 				79543B5F2189B90300F0C53D /* AppDelegate.swift in Sources */,
+				32AF24D12190D22600BFE952 /* AlarmTableViewCell.swift in Sources */,
 				79543B942189BD6B00F0C53D /* ContactViewController.swift in Sources */,
 				79543BAE2189D22500F0C53D /* ColorStyle.swift in Sources */,
+				32AF24D62190D26F00BFE952 /* WorldClockTableViewCell.swift in Sources */,
+				32AF24DA2190D6EC00BFE952 /* AlarmHour.swift in Sources */,
 				79543B9F2189BDE600F0C53D /* FavoritesViewController.swift in Sources */,
 				79543B992189BD9800F0C53D /* SettingsViewController.swift in Sources */,
 			);
