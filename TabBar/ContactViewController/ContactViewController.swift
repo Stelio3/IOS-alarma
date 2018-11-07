@@ -14,7 +14,7 @@ class ContactViewController: UIViewController {
     internal var arHour: [AlarmHour] = []
     init(){
         super.init(nibName: "ContactViewController", bundle: nil)
-        self.tabBarItem.image = UIImage(named: "contact")
+        self.tabBarItem.image = UIImage(named: "alarm")
         self.title = NSLocalizedString("title_alarm", comment: "")
     }
     convenience init(options: [AlarmHour]) {
@@ -26,9 +26,22 @@ class ContactViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupBarButtonsItem()
         loadAllOptions()
         registerCells()
         // Do any additional setup after loading the view.
+    }
+    private func setupBarButtonsItem(){
+        let editBarButton = UIBarButtonItem(barButtonSystemItem: .edit, target: self, action: #selector(cancelPressed))
+        navigationItem.setLeftBarButton(editBarButton, animated: false)
+        let addBarButton = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(cancelPressed))
+        navigationItem.setRightBarButton(addBarButton, animated: false)
+    }
+    @objc private func cancelPressed(){
+        
+    }
+    @objc private func actorsPressed(){
+       
     }
     private func registerCells(){
         let identifier = "AlarmTableViewCell"

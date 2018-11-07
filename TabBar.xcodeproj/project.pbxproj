@@ -12,6 +12,7 @@
 		32AF24D62190D26F00BFE952 /* WorldClockTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AF24D42190D26F00BFE952 /* WorldClockTableViewCell.swift */; };
 		32AF24D72190D26F00BFE952 /* WorldClockTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32AF24D52190D26F00BFE952 /* WorldClockTableViewCell.xib */; };
 		32AF24DA2190D6EC00BFE952 /* AlarmHour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AF24D92190D6EC00BFE952 /* AlarmHour.swift */; };
+		791BAAC62192F83F0022A905 /* WorldClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791BAAC52192F83F0022A905 /* WorldClock.swift */; };
 		79543B5F2189B90300F0C53D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79543B5E2189B90300F0C53D /* AppDelegate.swift */; };
 		79543B662189B90400F0C53D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79543B652189B90400F0C53D /* Assets.xcassets */; };
 		79543B742189B90400F0C53D /* TabBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79543B732189B90400F0C53D /* TabBarTests.swift */; };
@@ -53,6 +54,7 @@
 		32AF24D42190D26F00BFE952 /* WorldClockTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockTableViewCell.swift; sourceTree = "<group>"; };
 		32AF24D52190D26F00BFE952 /* WorldClockTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WorldClockTableViewCell.xib; sourceTree = "<group>"; };
 		32AF24D92190D6EC00BFE952 /* AlarmHour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmHour.swift; sourceTree = "<group>"; };
+		791BAAC52192F83F0022A905 /* WorldClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClock.swift; sourceTree = "<group>"; };
 		79543B5B2189B90300F0C53D /* TabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79543B5E2189B90300F0C53D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79543B652189B90400F0C53D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				32AF24D92190D6EC00BFE952 /* AlarmHour.swift */,
+				791BAAC52192F83F0022A905 /* WorldClock.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -392,6 +395,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				79543B8F2189BD3300F0C53D /* ChatViewController.swift in Sources */,
+				791BAAC62192F83F0022A905 /* WorldClock.swift in Sources */,
 				79543BAC2189D20200F0C53D /* Style.swift in Sources */,
 				79543B5F2189B90300F0C53D /* AppDelegate.swift in Sources */,
 				32AF24D12190D22600BFE952 /* AlarmTableViewCell.swift in Sources */,

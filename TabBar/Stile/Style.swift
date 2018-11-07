@@ -13,8 +13,8 @@ class Style {
     class func customize() {
         UINavigationBar.appearance().barTintColor = ColorStyle.navigationBarTintColor()
         UITabBar.appearance().barTintColor = ColorStyle.navigationBarTintColor()
-        UINavigationBar.appearance().titleTextAttributes = [NSAttributedStringKey.foregroundColor : UIColor.white, kCTFontAttributeName: UIFont(name: "Scare Arms", size: 26)] as? [NSAttributedStringKey : Any]
-        UITabBarItem.appearance().setTitleTextAttributes([kCTFontAttributeName as NSAttributedStringKey : UIFont(name: "Scare Arms", size: 15)!], for: .normal)
-        UITabBarItem.appearance().setTitleTextAttributes([kCTFontAttributeName as NSAttributedStringKey : UIFont(name: "Scare Arms", size: 15)!], for: .selected)
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedStringKey.foregroundColor : UIColor.white]
+        /*UITabBarItem.appearance().setTitleTextAttributes([kCTFontAttributeName as NSAttributedStringKey : UIFont(name: "Scare Arms", size: 15)!], for: .normal)
+        UITabBarItem.appearance().setTitleTextAttributes([kCTFontAttributeName as NSAttributedStringKey : UIFont(name: "Scare Arms", size: 15)!], for: .selected)*/
     }
 }

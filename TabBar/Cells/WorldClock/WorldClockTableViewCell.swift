@@ -10,6 +10,10 @@ import UIKit
 
 class WorldClockTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var lblhourAlarm: UILabel!
+    @IBOutlet weak var lbltimeAlarm: UILabel!
+    @IBOutlet weak var lblzoneAlarm: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
